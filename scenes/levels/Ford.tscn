@@ -30,7 +30,6 @@
 [ext_resource type="Script" uid="uid://ckva818l0y2ht" path="res://scripts/state_machine/states/state_path.gd" id="28_d5a00"]
 [ext_resource type="Script" uid="uid://di3e8lyqvjft4" path="res://scripts/state_machine/states/state_props_setter.gd" id="29_q8jow"]
 [ext_resource type="Texture2D" uid="uid://1yrfkk86icsp" path="res://henryfordmap.png" id="30_7ww22"]
-[ext_resource type="Texture2D" uid="uid://nbpf0jpg7wkd" path="res://scenes/props/objs1.png" id="30_suax2"]
 [ext_resource type="Resource" uid="uid://c5wtoujjj23k2" path="res://dialogues/ford.dialogue" id="32_d5n7y"]
 [ext_resource type="Script" uid="uid://bge33ybyn8b70" path="res://quest.gd" id="33_mc1m0"]
 [ext_resource type="Texture2D" uid="uid://cal54umjc8oaa" path="res://image-removebg-preview (2).png" id="34_fcyfm"]
@@ -57,7 +56,7 @@ script = ExtResource("13_1qjls")
 items = Array[ExtResource("7_pilcd")]([SubResource("Resource_jyx7v")])
 metadata/_custom_type_script = ExtResource("13_1qjls")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_wwymh"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mc1m0"]
 resource_local_to_scene = true
 shader = ExtResource("16_yn8u8")
 shader_parameter/flash_color = Color(1, 1, 1, 1)
@@ -271,7 +270,7 @@ region = Rect2(160, 150, 40, 50)
 atlas = ExtResource("17_nw3kq")
 region = Rect2(200, 150, 40, 50)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_mc1m0"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_fcyfm"]
 resource_local_to_scene = true
 animations = [{
 "frames": [{
@@ -562,7 +561,7 @@ size = Vector2(1183.75, 95.25)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d5n7y"]
 size = Vector2(130, 70)
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_fcyfm"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_pilcd"]
 resource_local_to_scene = true
 shader = ExtResource("16_yn8u8")
 shader_parameter/flash_color = Color(1, 1, 1, 1)
@@ -776,7 +775,7 @@ region = Rect2(160, 150, 40, 50)
 atlas = ExtResource("17_nw3kq")
 region = Rect2(200, 150, 40, 50)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_bbmm8"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_fut8n"]
 resource_local_to_scene = true
 animations = [{
 "frames": [{
@@ -1192,8 +1191,8 @@ position = Vector2(64, 120)
 position = Vector2(-14, 7)
 
 [node name="AnimatedSprite2D" parent="Entities/NPC" index="2" unique_id=1449465034]
-material = SubResource("ShaderMaterial_wwymh")
-sprite_frames = SubResource("SpriteFrames_mc1m0")
+material = SubResource("ShaderMaterial_mc1m0")
+sprite_frames = SubResource("SpriteFrames_fcyfm")
 
 [node name="InteractionArea" type="Area2D" parent="Entities/NPC" unique_id=1485197502]
 z_index = -1
@@ -1319,10 +1318,6 @@ on_enter = Dictionary[String, Variant]({
 "input_enabled": true
 })
 
-[node name="Objs1" type="Sprite2D" parent="." unique_id=1565558193]
-position = Vector2(67, 369)
-texture = ExtResource("30_suax2")
-
 [node name="TileMap" type="TileMap" parent="." unique_id=1496602088]
 z_index = -8
 format = 2
@@ -1331,7 +1326,7 @@ format = 2
 position = Vector2(-6.0552902e-05, 3.0496998e-05)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=840639496]
-position = Vector2(71.50003, 392.99997)
+position = Vector2(88.00006, 402.99997)
 shape = SubResource("RectangleShape2D_7ww22")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D" unique_id=719937719]
@@ -1383,8 +1378,8 @@ position = Vector2(649, 577)
 position = Vector2(-14, 7)
 
 [node name="AnimatedSprite2D" parent="NPC" index="2" unique_id=1449465034]
-material = SubResource("ShaderMaterial_fcyfm")
-sprite_frames = SubResource("SpriteFrames_bbmm8")
+material = SubResource("ShaderMaterial_pilcd")
+sprite_frames = SubResource("SpriteFrames_fut8n")
 
 [node name="InteractionArea" type="Area2D" parent="NPC" unique_id=1417474977]
 z_index = -1
