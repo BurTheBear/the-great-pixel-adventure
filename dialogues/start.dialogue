@@ -2,20 +2,20 @@
 
 
 
-{ Quest1.start_mexico_quest == true:
+
     Villager: Speak with the citizens around town.
     Villager: They will help you understand why the revolution began.
     => END
-}
 
-{ Quest1.start_mexico_quest == true:
+
+
     Villager: Welcome back.
     Villager: I see you have spoken with the citizens around town.
     Villager: Now you understand why the Mexican Revolution began in 1910.
     Villager: Francisco I. Madero called for democracy and fair elections.
     Villager: You may now continue your journey through the portal.
     => END
-}
+
 
 Villager: Welcome to Mexico in the year 1910.
 

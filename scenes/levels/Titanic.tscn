@@ -50,7 +50,7 @@ script = ExtResource("8_buda1")
 items = Array[ExtResource("4_dln11")]([SubResource("Resource_jyx7v")])
 metadata/_custom_type_script = ExtResource("8_buda1")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_nowak"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_rgp2h"]
 resource_local_to_scene = true
 shader = ExtResource("3_q0u2y")
 shader_parameter/flash_color = Color(1, 1, 1, 1)
@@ -264,7 +264,7 @@ region = Rect2(160, 150, 40, 50)
 atlas = ExtResource("4_jogk7")
 region = Rect2(200, 150, 40, 50)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_7cyed"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_40wsf"]
 resource_local_to_scene = true
 animations = [{
 "frames": [{
@@ -654,8 +654,8 @@ position = Vector2(64, 120)
 position = Vector2(-14, 7)
 
 [node name="AnimatedSprite2D" parent="Entities/NPC" index="2" unique_id=1449465034]
-material = SubResource("ShaderMaterial_nowak")
-sprite_frames = SubResource("SpriteFrames_7cyed")
+material = SubResource("ShaderMaterial_rgp2h")
+sprite_frames = SubResource("SpriteFrames_40wsf")
 
 [node name="InteractionArea" type="Area2D" parent="Entities/NPC" unique_id=1485197502]
 z_index = -1
