@@ -1,0 +1,38 @@
+~ titanic_intro
+
+
+CrewMember: Welcome aboard the RMS Titanic.
+
+CrewMember: The Titanic was the largest passenger ship in the world when it launched in 1912.
+
+CrewMember: It was built by the White Star Line and designed to be one of the most luxurious ships ever created.
+
+- How big was the Titanic?
+    CrewMember: The Titanic was about 882 feet long and could carry over 2,200 passengers and crew.
+    => fact2
+
+- Was it considered safe?
+    CrewMember: Many people believed the Titanic was extremely safe because of its watertight compartments.
+    => fact2
+
+
+~ fact2
+CrewMember: The Titanic began its first voyage from Southampton, England, heading to New York City.
+
+CrewMember: The captain of the ship was Edward J. Smith, a very experienced sea captain.
+
+- What should I do here?
+    CrewMember: You should explore the ship and speak with Captain Edward Smith.
+    => quest
+
+- Where can I find the captain?
+    CrewMember: The captain is somewhere aboard the ship. Try exploring the decks.
+    => quest
+
+
+~ quest
+CrewMember: Task Started: Explore the Titanic and speak with Captain Edward Smith to learn more about the ship.
+
+
+
+=> END

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://jc0ok0awktmi"
+path="res://.godot/imported/titanic.dialogue-684ec57524c6faf208e3f26ef95d34b7.tres"
+
+[deps]
+
+source_file="res://dialogues/titanic.dialogue"
+dest_files=["res://.godot/imported/titanic.dialogue-684ec57524c6faf208e3f26ef95d34b7.tres"]
+
+[params]
+
+defaults=true

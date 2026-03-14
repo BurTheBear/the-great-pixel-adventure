@@ -1,0 +1,58 @@
+~ captain_smith
+
+Captain: Ah, welcome aboard. I am Captain Edward John Smith, captain of the RMS Titanic.
+
+Captain: You are standing aboard the largest and most luxurious passenger ship ever built.
+
+Captain: This ship is currently on her maiden voyage across the Atlantic Ocean in April of 1912.
+
+- What makes the Titanic special?
+    Captain: The Titanic was designed to be one of the most advanced ships of its time.
+    Captain: She is over 882 feet long and powered by enormous steam engines that drive three massive propellers.
+    Captain: The ship also contains watertight compartments meant to keep the vessel afloat even if part of the hull is damaged.
+    => fact2
+
+- How many people are on the ship?
+    Captain: On this voyage there are more than 2,200 passengers and crew aboard the Titanic.
+    Captain: People from all over the world are traveling to America in search of opportunity, while others are simply enjoying the luxury of the voyage.
+    => fact2
+
+- What is it like being the captain?
+    Captain: Being captain means I am responsible for the safety of everyone on board.
+    Captain: I must oversee navigation, crew operations, and ensure the ship travels safely across the ocean.
+    Captain: After more than 40 years at sea, I can say this is the most impressive ship I have ever commanded.
+    => fact2
+
+
+~ fact2
+Captain: The Titanic is known not only for its size, but also for its luxury.
+
+Captain: First-class passengers enjoy grand staircases, elegant dining rooms, libraries, and even a swimming pool.
+
+Captain: Meanwhile, many third-class passengers are traveling to America hoping to start a new life.
+
+- Is the Titanic really unsinkable?
+    Captain: Many people believe the Titanic is extremely safe because of her watertight compartments.
+    Captain: However, no ship is truly unsinkable. The sea always deserves respect.
+    => fact3
+
+- Where is the Titanic sailing to?
+    Captain: Our destination is New York City in the United States.
+    Captain: The journey across the Atlantic Ocean usually takes about a week.
+    => fact3
+
+
+~ fact3
+Captain: I hope you enjoyed learning about the Titanic and life aboard this remarkable ship.
+
+Captain: There is much history connected to this voyage.
+
+Captain: Now, look just above you.
+
+Captain: Do you see the door above?
+
+Captain: Go through that door to continue your journey to the next destination.
+
+Captain: Safe travels.
+
+=> END
