@@ -1871,7 +1871,7 @@ metadata/_custom_type_script = "uid://b6xeyy0l5h482"
 [node name="start_dialogue" type="Node" parent="NPC2/StateMachine" unique_id=1908363799 node_paths=PackedStringArray("on_completion")]
 script = ExtResource("11_yfo47")
 dialogue = ExtResource("34_vam05")
-title = "titanic_intro"
+title = "captain_smith"
 on_completion = [NodePath("../interact")]
 
 [node name="ImageRemovebgPreview(7)" type="Sprite2D" parent="NPC2/StateMachine" unique_id=1737530403]
