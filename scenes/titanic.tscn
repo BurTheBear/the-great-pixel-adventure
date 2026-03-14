@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b87fy1cwr8qde"]
+
+[ext_resource type="Texture2D" uid="uid://3yjv13lmbyiq" path="res://scenes/props/blocks.png" id="1_fspey"]
+
+[node name="Titanic" type="Node2D" unique_id=89498481]
+
+[node name="Blocks" type="Sprite2D" parent="." unique_id=135789554]
+position = Vector2(-232, 467)
+texture = ExtResource("1_fspey")

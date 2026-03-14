@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c5wtoujjj23k2"
+path="res://.godot/imported/ford.dialogue-5900ba73a315d4fe5d70d53ec521ba0d.tres"
+
+[deps]
+
+source_file="res://dialogues/ford.dialogue"
+dest_files=["res://.godot/imported/ford.dialogue-5900ba73a315d4fe5d70d53ec521ba0d.tres"]
+
+[params]
+
+defaults=true

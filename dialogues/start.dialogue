@@ -1,0 +1,17 @@
+~ mexico_revolution_start
+
+Villager: Have you heard about the uprising?
+
+- What uprising?
+    Villager: In 1910, Francisco I. Madero called for the people to rise against Porfirio Díaz.
+    Villager: He demanded democracy and fair elections for Mexico.
+    Villager: That moment sparked the Mexican Revolution.
+
+- Who is Madero?
+    Villager: Francisco I. Madero is a wealthy landowner who believes Mexico deserves freedom and democracy.
+    Villager: His message inspired people across the country to fight for change.
+
+Villager: These are dangerous times, but they may shape Mexico's future forever.
+Villager: Task: Explore Ancient Mexico and speak with the citizens before continuing through the next portal.
+
+-> END

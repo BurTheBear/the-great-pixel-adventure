@@ -1,0 +1,57 @@
+~ henry_ford_start
+if Quest.tools_collected >= 3
+	Worker: You found the tools! Thank you for helping us.
+	Worker: The assembly line can run smoothly again.
+	Worker: Now we can keep producing Model T cars for families everywhere!
+	=> END
+
+Worker: Welcome to Ford's factory in Detroit!
+
+Worker: In 1913, Henry Ford introduced the moving assembly line.
+Worker: Instead of one worker building the entire car, each worker adds one small part.
+
+- Why did Ford use the assembly line?
+    Worker: It allowed cars to be built much faster and more efficiently.
+    => fact2
+
+- Who was Henry Ford?
+    Worker: Henry Ford was an American industrialist who helped revolutionize manufacturing.
+    => fact2
+
+
+~ fact2
+Worker: Because of the assembly line, the Model T became affordable for millions of people.
+
+- What was the Model T?
+    Worker: The Model T was Ford’s most famous car and one of the first affordable automobiles.
+    => fact3
+
+- How fast could they build a car?
+    Worker: With the assembly line, a car could be built in about 90 minutes.
+    => fact3
+
+
+~ fact3
+Worker: The assembly line required many workers to do their jobs at exactly the right time.
+
+- That sounds difficult.
+    Worker: It was! If one worker was missing tools or parts, the whole line could slow down.
+    => quest
+
+- Why are tools so important?
+    Worker: Without the right tools, workers can't install parts on the car as it moves down the line.
+    => quest
+
+
+~ quest
+Worker: Actually, we have a problem right now.
+
+Worker: Some workers are missing their tools and the assembly line is slowing down!
+
+Worker: Could you help us by finding the missing tools around the factory?
+
+Worker: Task Started: Find the missing tools and return them to the workers.
+
+do Quest.started = true
+
+=> END

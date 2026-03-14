@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bwgneakyoxka6"]
+
+[ext_resource type="Texture2D" uid="uid://bl5n2j6uyeptl" path="res://3bfcc01c-a284-49b3-bde8-cba6291000c0.png" id="1_6fccu"]
+
+[node name="Titanic" type="Node2D" unique_id=1719778687]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=843179435]
+
+[node name="Map" type="Sprite2D" parent="." unique_id=1336230634]
+position = Vector2(380, -5087)
+scale = Vector2(15.908204, 14.943359)
+texture = ExtResource("1_6fccu")
