@@ -1,17 +1,41 @@
 ~ mexico_revolution_start
 
-Villager: Have you heard about the uprising?
+Villager: Welcome to Mexico in the year 1910.
 
-- What uprising?
-    Villager: In 1910, Francisco I. Madero called for the people to rise against Porfirio Díaz.
-    Villager: He demanded democracy and fair elections for Mexico.
-    Villager: That moment sparked the Mexican Revolution.
+Villager: The country is on the edge of a major change.
 
-- Who is Madero?
-    Villager: Francisco I. Madero is a wealthy landowner who believes Mexico deserves freedom and democracy.
-    Villager: His message inspired people across the country to fight for change.
+Villager: For many years, President Porfirio Díaz ruled Mexico. Many people believe his government has become unfair and corrupt.
 
-Villager: These are dangerous times, but they may shape Mexico's future forever.
-Villager: Task: Explore Ancient Mexico and speak with the citizens before continuing through the next portal.
+- Why are people upset?
+    Villager: Many citizens believe elections are not fair and that the government favors the rich over farmers and workers.
+    => fact2
 
--> END
+- Who is leading the resistance?
+    Villager: A man named Francisco I. Madero has called for democracy and fair elections.
+    => fact2
+
+
+~ fact2
+Villager: Madero’s call for change inspired many people across Mexico to rise up against the government.
+
+Villager: This uprising would become known as the Mexican Revolution.
+
+- What is the Mexican Revolution?
+    Villager: It is a movement where citizens and leaders fought to change Mexico’s political system and create a more democratic government.
+    => quest
+
+- Did many people join?
+    Villager: Yes. Farmers, workers, and soldiers across Mexico joined the fight for change.
+    => quest
+
+
+~ quest
+Villager: If you want to understand what is happening, you should speak with the people living here.
+
+Villager: Different citizens have their own perspectives on the revolution and why it started.
+
+Villager: Task Started: Speak with the citizens around town to learn about the Mexican Revolution.
+
+do Quest1.start_mexico_quest()
+
+=> END

@@ -1,0 +1,19 @@
+~ citizen_farmer
+
+Farmer: These are difficult times in Mexico.
+
+Farmer: For many years, President Porfirio Díaz ruled the country.
+
+Farmer: At first he brought stability, but over time many people felt his rule had become a dictatorship.
+
+Farmer: Many farmers lost their land and had little voice in the government.
+
+- Why were people unhappy?
+    Farmer: Because Díaz stayed in power for decades and elections were not truly fair.
+    => END
+
+- What is a dictatorship?
+    Farmer: A dictatorship is when one leader holds most of the power and people have little say in government.
+    => END
+
+do Quest1.talk_to_citizen()

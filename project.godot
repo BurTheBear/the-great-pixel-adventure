@@ -33,6 +33,7 @@ DataManager="*res://scripts/autoloads/DataManager.gd"
 Debugger="*res://scripts/autoloads/debugger.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 Quest="*uid://bge33ybyn8b70"
+Quest1="*uid://d17d8laarh2kd"
 
 [dialogue_manager]
 
@@ -167,7 +168,7 @@ inventory={
 [internationalization]
 
 locale/translations=PackedStringArray("res://local/translations.en.translation", "res://local/translations.it.translation")
-locale/translations_pot_files=PackedStringArray("res://dialogues/start.dialogue", "res://dialogues/commons.dialogue", "res://dialogues/ford.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogues/start.dialogue", "res://dialogues/commons.dialogue", "res://dialogues/ford.dialogue", "res://villager1.dialogue", "res://villager3.dialogue", "res://villager2.dialogue")
 
 [layer_names]
 

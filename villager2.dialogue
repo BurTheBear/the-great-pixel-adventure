@@ -1,0 +1,17 @@
+~ citizen_madero
+
+Citizen: Have you heard about Francisco I. Madero?
+
+Citizen: He was a wealthy landowner who believed Mexico should have fair elections and democracy.
+
+Citizen: In 1910, Madero called on the people to rise up against Porfirio Díaz.
+
+- What did Madero want?
+    Citizen: He wanted democratic reforms and free elections so the people could choose their leaders.
+    => END
+
+- Was Madero a soldier?
+    Citizen: Not really. He was more of a political leader who inspired others to fight for change.
+    => END
+
+do Quest1.talk_to_citizen()

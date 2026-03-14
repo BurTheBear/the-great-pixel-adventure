@@ -1,0 +1,17 @@
+~ citizen_revolution
+
+Shopkeeper: The country is changing quickly.
+
+Shopkeeper: The uprising that began in 1910 started what we now call the Mexican Revolution.
+
+Shopkeeper: The conflict would last for more than ten years and reshape Mexico’s future.
+
+- Why was the revolution important?
+    Shopkeeper: It led to major political and social changes in Mexico's government and society.
+    => END
+
+- Did the revolution affect everyone?
+    Shopkeeper: Yes, farmers, workers, and soldiers across the country were all affected by the fighting and the changes.
+    => END
+
+do Quest1.talk_to_citizen()

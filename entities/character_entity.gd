@@ -1,5 +1,7 @@
 ##Script attached to the Entity node, which represents all the characters entities of the game.
 ##The Entity node is used as a base to create players, enemies and any other npc.
+
+
 class_name CharacterEntity
 extends CharacterBody2D
 
