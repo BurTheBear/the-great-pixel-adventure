@@ -12,7 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://byyv6sap8jcld" path="res://tilesets/walls.png" id="10_eiofu"]
 [ext_resource type="Texture2D" uid="uid://pcjlcbpynylt" path="res://image-removebg-preview.png" id="11_0mcwu"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xydwj"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e1pxf"]
 resource_local_to_scene = true
 size = Vector2(64, 32)
 
@@ -21,7 +21,7 @@ script = ExtResource("9_ja7so")
 direction = 8
 metadata/_custom_type_script = ExtResource("9_ja7so")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_anikj"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x6oi4"]
 resource_local_to_scene = true
 size = Vector2(64, 32)
 
@@ -99,7 +99,7 @@ destination_name = "Transfer_02"
 metadata/_custom_type_script = "uid://bgm8n3pwwbymt"
 
 [node name="CollisionShape2D" parent="Transfers/Transfer_01/InteractionArea" index="0"]
-shape = SubResource("RectangleShape2D_xydwj")
+shape = SubResource("RectangleShape2D_e1pxf")
 
 [node name="interact" parent="Transfers/Transfer_01/StateMachine" index="0"]
 conditions = Array[ExtResource("8_anikj")]([SubResource("Resource_i3j8m")])
@@ -115,7 +115,7 @@ destination_name = "Transfer_01"
 metadata/_custom_type_script = "uid://bgm8n3pwwbymt"
 
 [node name="CollisionShape2D" parent="Transfers/Transfer_02/InteractionArea" index="0"]
-shape = SubResource("RectangleShape2D_anikj")
+shape = SubResource("RectangleShape2D_x6oi4")
 
 [node name="interact" parent="Transfers/Transfer_02/StateMachine" index="0"]
 conditions = Array[ExtResource("8_anikj")]([SubResource("Resource_phe5r")])
@@ -167,6 +167,8 @@ z_index = 17
 position = Vector2(668.0001, 237)
 scale = Vector2(0.30094543, 0.25830463)
 texture = ExtResource("11_0mcwu")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="." index="10" unique_id=987082053]
 
 [editable path="Props/Potion"]
 [editable path="Transfers/Transfer_01"]

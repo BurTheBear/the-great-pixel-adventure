@@ -551,7 +551,7 @@ _data = {
 point_count = 2
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dddes"]
-size = Vector2(212.35452, 9.751465)
+size = Vector2(212.35452, 12.847298)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_vam05"]
 resource_local_to_scene = true
@@ -1296,6 +1296,9 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xdd8u"]
+size = Vector2(112, 159)
+
 [node name="Playground_02" type="Node2D" unique_id=368460254 groups=["level"]]
 y_sort_enabled = true
 position = Vector2(-4.82253e-07, 2.05796e-08)
@@ -1629,7 +1632,7 @@ rotation = -1.5778561
 shape = SubResource("RectangleShape2D_dddes")
 
 [node name="CollisionShape2D26" type="CollisionShape2D" parent="StaticBody2D" unique_id=1470234730]
-position = Vector2(107, 21)
+position = Vector2(108.547874, 20.989073)
 rotation = -1.5778561
 shape = SubResource("RectangleShape2D_dddes")
 
@@ -1882,6 +1885,16 @@ texture = ExtResource("35_xdd8u")
 [node name="TargetManager" type="Node2D" parent="NPC2" unique_id=1900536186]
 script = ExtResource("27_dln11")
 target_player_id = 1
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=2095315784]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3" unique_id=472276364]
+position = Vector2(149, 46)
+shape = SubResource("RectangleShape2D_xdd8u")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D3" unique_id=358642090]
+position = Vector2(56, 46)
+shape = SubResource("RectangleShape2D_xdd8u")
 
 [editable path="Props/Potion"]
 [editable path="Props/Chest"]

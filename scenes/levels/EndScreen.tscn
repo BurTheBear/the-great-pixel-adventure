@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://0bdqeyqfi6dc"]
+
+[node name="EndScreen" type="Node2D" unique_id=2016330108]
+
+[node name="Label" type="Label" parent="." unique_id=1453239856]
+offset_right = 40.0
+offset_bottom = 23.0

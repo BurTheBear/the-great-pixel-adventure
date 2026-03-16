@@ -34,6 +34,7 @@
 [ext_resource type="Script" uid="uid://bge33ybyn8b70" path="res://quest.gd" id="33_mc1m0"]
 [ext_resource type="Texture2D" uid="uid://cal54umjc8oaa" path="res://image-removebg-preview (2).png" id="34_fcyfm"]
 [ext_resource type="Script" uid="uid://khfnm5uaw513" path="res://scenes/levels/tool.gd" id="34_pilcd"]
+[ext_resource type="Texture2D" uid="uid://cwqvbb5lmqtyf" path="res://2fd4112c-fec4-4e02-8259-f1a954395441.png" id="35_fcyfm"]
 
 [sub_resource type="Resource" id="Resource_iu1m7"]
 script = ExtResource("7_pilcd")
@@ -554,6 +555,9 @@ point_count = 2
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7ww22"]
 size = Vector2(163.00006, 806)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fcyfm"]
+size = Vector2(87, 121.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5ma00"]
 size = Vector2(1183.75, 95.25)
@@ -1243,8 +1247,8 @@ destination_name = "Transfer_North"
 [node name="Transfer_WWI" parent="Transfers" unique_id=581958668 instance=ExtResource("25_t32fk")]
 z_index = 1
 position = Vector2(1218, 18)
-level_path = "uid://cfwrkdgk5cv7t"
-destination_name = "Transfer_Ford"
+level_path = "uid://7ea86krx3ugx"
+destination_name = "Transfer_End"
 direction = SubResource("Resource_nowak")
 
 [node name="Download" type="Sprite2D" parent="Transfers" unique_id=978685459]
@@ -1338,6 +1342,12 @@ z_index = -8
 position = Vector2(763.83185, 403.5)
 scale = Vector2(0.907771, 0.7783204)
 texture = ExtResource("30_7ww22")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Henryfordmap" unique_id=1198288668]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Henryfordmap/StaticBody2D3" unique_id=856845039]
+position = Vector2(14.50605, 226.77037)
+shape = SubResource("RectangleShape2D_fcyfm")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=982669183]
 
@@ -1469,6 +1479,15 @@ texture = ExtResource("34_fcyfm")
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Tools: 0 / 3"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1476594834]
+position = Vector2(3933.5, 185)
+scale = Vector2(0.67903644, 0.6660156)
+texture = ExtResource("35_fcyfm")
+
+[node name="EndScreenSpot" type="Marker2D" parent="Sprite2D" unique_id=1381940748]
+position = Vector2(-3.6816406, 0)
+scale = Vector2(1.472675, 1.5014663)
 
 [connection signal="area_entered" from="Tool" to="." method="_on_tool_area_entered"]
 [connection signal="body_entered" from="Tool" to="." method="_on_tool_body_entered"]
