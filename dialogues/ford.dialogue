@@ -3,9 +3,7 @@ if Quest.tools_collected >= 3
 	Worker: You found the tools! Thank you for helping us.
 	Worker: The assembly line can run smoothly again.
 	Worker: Now we can keep producing Model T cars for families everywhere!
-
-
-=> END
+	=> END
 
 Worker: Welcome to Ford's factory in Detroit!
 
