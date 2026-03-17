@@ -24,9 +24,7 @@ E: Toggle object
 	Space: Jump
 
 ## Contributing
-	Email @aj2012n@gmail.com, @taransuravarapu@gmail.com, 
-	or @atharv.sharma1219@gmail.com if you wish to contribute
- 	to the project.
+	Email @atharv.sharma1219@gmail.com, @aj2012n@gmail.com, @taransuravarapu@gmail.com, 
 	
 ##Credits
 	Tutorials:
