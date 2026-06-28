@@ -24,7 +24,7 @@ E: Toggle object
 	Space: Jump
 
 ## Contributing
-	Email @atharv.sharma1219@gmail.com, @aj2012n@gmail.com, @taransuravarapu@gmail.com, 
+	Email @atharv.sharma1219@gmail.com
 	
 ##Credits
 	Tutorials:
